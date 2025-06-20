@@ -1,0 +1,149 @@
+text,label,clean_text,tokens,label_encoded
+The app crashes every time I upload an image.,technical_issue,the app crashes every time i upload an image,"['app', 'crashes', 'time', 'upload', 'image']",4
+I really love the new dashboard layout!,praise,i really love the new dashboard layout,"['love', 'new', 'dashboard', 'layout']",2
+Please add dark mode to the app.,feature_request,please add dark mode to the app,"['add', 'dark', 'mode', 'app']",1
+I'm very disappointed with your customer service.,complaint,im very disappointed with your customer service,"['m', 'disappointed', 'customer', 'service']",0
+How do I change my subscription plan?,question,how do i change my subscription plan,"['change', 'subscription', 'plan']",3
+The website is down again. What's happening?,technical_issue,the website is down again whats happening,"['website', 's', 'happening']",4
+Great work on the latest update. Everything feels smooth.,praise,great work on the latest update everything feels smooth,"['great', 'work', 'latest', 'update', 'feels', 'smooth']",2
+Can we get more payment options like PayPal?,feature_request,can we get more payment options like paypal,"['payment', 'options', 'like', 'paypal']",1
+Your response time is terrible.,complaint,your response time is terrible,"['response', 'time', 'terrible']",0
+I forgot my password. Can you help me reset it?,question,i forgot my password can you help me reset it,"['forgot', 'password', 'help', 'reset']",3
+The search feature is broken. It returns no results.,technical_issue,the search feature is broken it returns no results,"['search', 'feature', 'broken', 'returns', 'results']",4
+Fantastic job on the recent bug fixes.,praise,fantastic job on the recent bug fixes,"['fantastic', 'job', 'recent', 'bug', 'fixes']",2
+I'd love to have a desktop version of this app.,feature_request,id love to have a desktop version of this app,"['d', 'love', 'desktop', 'version', 'app']",1
+Why haven't I received a confirmation email yet?,complaint,why havent i received a confirmation email yet,"['nt', 'received', 'confirmation', 'email']",0
+How do I unsubscribe from your newsletter?,question,how do i unsubscribe from your newsletter,"['unsubscribe', 'newsletter']",3
+The mobile app won't open after the update.,technical_issue,the mobile app wont open after the update,"['mobile', 'app', 'wo', 'nt', 'open', 'update']",4
+Thanks for the quick response. Much appreciated!,praise,thanks for the quick response much appreciated,"['thanks', 'quick', 'response', 'appreciated']",2
+Please support integration with Google Drive.,feature_request,please support integration with google drive,"['support', 'integration', 'google', 'drive']",1
+I'm still waiting for someone to reply to my ticket.,complaint,im still waiting for someone to reply to my ticket,"['m', 'waiting', 'reply', 'ticket']",0
+What is your refund policy?,question,what is your refund policy,"['refund', 'policy']",3
+My saved data is missing after logging back in.,technical_issue,my saved data is missing after logging back in,"['saved', 'data', 'missing', 'logging']",4
+Best app I’ve used this year. Keep it up!,praise,best app ive used this year keep it up,"['best', 'app', 've', 'year']",2
+Consider adding biometric login for extra security.,feature_request,consider adding biometric login for extra security,"['consider', 'adding', 'biometric', 'login', 'extra', 'security']",1
+Your chatbot keeps giving irrelevant answers.,complaint,your chatbot keeps giving irrelevant answers,"['chatbot', 'keeps', 'giving', 'irrelevant', 'answers']",0
+Where can I download the user manual?,question,where can i download the user manual,"['download', 'user', 'manual']",3
+I get a 404 error on the help page.,technical_issue,i get a error on the help page,"['error', 'help', 'page']",4
+The interface is so user-friendly. Well done!,praise,the interface is so userfriendly well done,"['interface', 'userfriendly']",2
+It would be great to get daily email reports.,feature_request,it would be great to get daily email reports,"['great', 'daily', 'email', 'reports']",1
+Unacceptable delays in your support team response.,complaint,unacceptable delays in your support team response,"['unacceptable', 'delays', 'support', 'team', 'response']",0
+Do you offer a student discount?,question,do you offer a student discount,"['offer', 'student', 'discount']",3
+The export to PDF option isn’t working properly.,technical_issue,the export to pdf option isnt working properly,"['export', 'pdf', 'option', 'nt', 'working', 'properly']",4
+This is the most intuitive design I’ve seen.,praise,this is the most intuitive design ive seen,"['intuitive', 'design', 've', 'seen']",2
+Can you provide a tutorial for beginners?,feature_request,can you provide a tutorial for beginners,"['provide', 'tutorial', 'beginners']",1
+Nobody answers on the live chat support.,complaint,nobody answers on the live chat support,"['answers', 'live', 'chat', 'support']",0
+How can I recover deleted items?,question,how can i recover deleted items,"['recover', 'deleted', 'items']",3
+Sometimes the app freezes on the loading screen.,technical_issue,sometimes the app freezes on the loading screen,"['app', 'freezes', 'loading', 'screen']",4
+Love the new analytics dashboard!,praise,love the new analytics dashboard,"['love', 'new', 'analytics', 'dashboard']",2
+Please include multi-language support.,feature_request,please include multilanguage support,"['include', 'multilanguage', 'support']",1
+The refund process is too slow.,complaint,the refund process is too slow,"['refund', 'process', 'slow']",0
+What are the benefits of your premium plan?,question,what are the benefits of your premium plan,"['benefits', 'premium', 'plan']",3
+My settings don't save after I log out.,technical_issue,my settings dont save after i log out,"['settings', 'nt', 'save', 'log']",4
+Kudos to your team on the latest release!,praise,kudos to your team on the latest release,"['kudos', 'team', 'latest', 'release']",2
+Add an option to customize notification sounds.,feature_request,add an option to customize notification sounds,"['add', 'option', 'customize', 'notification', 'sounds']",1
+Not happy with how my issue was handled.,complaint,not happy with how my issue was handled,"['happy', 'issue', 'handled']",0
+Can I change my registered email address?,question,can i change my registered email address,"['change', 'registered', 'email', 'address']",3
+"Every time I try to save a report, the app shuts down.",technical_issue,every time i try to save a report the app shuts down,"['time', 'try', 'save', 'report', 'app', 'shuts']",4
+I really appreciate the new feature rollout.,praise,i really appreciate the new feature rollout,"['appreciate', 'new', 'feature', 'rollout']",2
+It would be helpful to schedule reports automatically.,feature_request,it would be helpful to schedule reports automatically,"['helpful', 'schedule', 'reports', 'automatically']",1
+My account was locked for no reason.,complaint,my account was locked for no reason,"['account', 'locked', 'reason']",0
+Is there a way to change my language settings?,question,is there a way to change my language settings,"['way', 'change', 'language', 'settings']",3
+The billing page loads forever and never responds.,technical_issue,the billing page loads forever and never responds,"['billing', 'page', 'loads', 'forever', 'responds']",4
+Kudos to the team for fixing bugs so fast!,praise,kudos to the team for fixing bugs so fast,"['kudos', 'team', 'fixing', 'bugs', 'fast']",2
+Would be great to import contacts from my phone.,feature_request,would be great to import contacts from my phone,"['great', 'import', 'contacts', 'phone']",1
+I was charged twice for the same subscription.,complaint,i was charged twice for the same subscription,"['charged', 'twice', 'subscription']",0
+Where do I find my invoice history?,question,where do i find my invoice history,"['find', 'invoice', 'history']",3
+The app randomly logs me out.,technical_issue,the app randomly logs me out,"['app', 'randomly', 'logs']",4
+I'm impressed by how clean the UI is now.,praise,im impressed by how clean the ui is now,"['m', 'impressed', 'clean', 'ui']",2
+Can you implement two-factor authentication?,feature_request,can you implement twofactor authentication,"['implement', 'twofactor', 'authentication']",1
+I didn’t get any confirmation after payment.,complaint,i didnt get any confirmation after payment,"['nt', 'confirmation', 'payment']",0
+What is the difference between Basic and Premium?,question,what is the difference between basic and premium,"['difference', 'basic', 'premium']",3
+The reports are missing key metrics after export.,technical_issue,the reports are missing key metrics after export,"['reports', 'missing', 'key', 'metrics', 'export']",4
+The onboarding process was very smooth!,praise,the onboarding process was very smooth,"['onboarding', 'process', 'smooth']",2
+Would love a feature to sync with Apple Calendar.,feature_request,would love a feature to sync with apple calendar,"['love', 'feature', 'sync', 'apple', 'calendar']",1
+Still waiting for someone to resolve my issue.,complaint,still waiting for someone to resolve my issue,"['waiting', 'resolve', 'issue']",0
+How do I delete my account permanently?,question,how do i delete my account permanently,"['delete', 'account', 'permanently']",3
+Why does the screen freeze on login?,technical_issue,why does the screen freeze on login,"['screen', 'freeze', 'login']",4
+Thanks for listening to user suggestions!,praise,thanks for listening to user suggestions,"['thanks', 'listening', 'user', 'suggestions']",2
+Please add keyboard shortcuts for navigation.,feature_request,please add keyboard shortcuts for navigation,"['add', 'keyboard', 'shortcuts', 'navigation']",1
+My coupon code didn’t work during checkout.,complaint,my coupon code didnt work during checkout,"['coupon', 'code', 'nt', 'work', 'checkout']",0
+Where can I edit my profile details?,question,where can i edit my profile details,"['edit', 'profile', 'details']",3
+Nothing happens when I click the 'Submit' button.,technical_issue,nothing happens when i click the submit button,"['happens', 'click', 'submit', 'button']",4
+This update is exactly what we needed. Well done!,praise,this update is exactly what we needed well done,"['update', 'exactly', 'needed']",2
+Would be awesome to have dark mode for emails.,feature_request,would be awesome to have dark mode for emails,"['awesome', 'dark', 'mode', 'emails']",1
+My ticket has been open for two weeks with no reply.,complaint,my ticket has been open for two weeks with no reply,"['ticket', 'open', 'weeks', 'reply']",0
+Is there a way to preview before sending?,question,is there a way to preview before sending,"['way', 'preview', 'sending']",3
+The app shows incorrect timezone for meetings.,technical_issue,the app shows incorrect timezone for meetings,"['app', 'shows', 'incorrect', 'timezone', 'meetings']",4
+I love how intuitive everything feels now.,praise,i love how intuitive everything feels now,"['love', 'intuitive', 'feels']",2
+"Add export option to Excel, not just PDF.",feature_request,add export option to excel not just pdf,"['add', 'export', 'option', 'excel', 'pdf']",1
+Customer service agent was rude and unhelpful.,complaint,customer service agent was rude and unhelpful,"['customer', 'service', 'agent', 'rude', 'unhelpful']",0
+How many users can I add to my team?,question,how many users can i add to my team,"['users', 'add', 'team']",3
+The forgot password link doesn’t work.,technical_issue,the forgot password link doesnt work,"['forgot', 'password', 'link', 'nt', 'work']",4
+Big thanks for rolling out requested features!,praise,big thanks for rolling out requested features,"['big', 'thanks', 'rolling', 'requested', 'features']",2
+It would help if reports had a drill-down option.,feature_request,it would help if reports had a drilldown option,"['help', 'reports', 'drilldown', 'option']",1
+I never received the setup guide you promised.,complaint,i never received the setup guide you promised,"['received', 'setup', 'guide', 'promised']",0
+How can I see what’s included in each plan?,question,how can i see whats included in each plan,"['s', 'included', 'plan']",3
+Login fails with a ‘server error’ message.,technical_issue,login fails with a server error message,"['login', 'fails', 'server', 'error', 'message']",4
+The latest version is so much faster!,praise,the latest version is so much faster,"['latest', 'version', 'faster']",2
+Can you allow saving drafts before sending?,feature_request,can you allow saving drafts before sending,"['allow', 'saving', 'drafts', 'sending']",1
+I’m frustrated with the constant downtime.,complaint,im frustrated with the constant downtime,"['m', 'frustrated', 'constant', 'downtime']",0
+Is phone support available for enterprise users?,question,is phone support available for enterprise users,"['phone', 'support', 'available', 'enterprise', 'users']",3
+The video tutorial won’t play on mobile.,technical_issue,the video tutorial wont play on mobile,"['video', 'tutorial', 'wo', 'nt', 'play', 'mobile']",4
+Appreciate how fast you responded to the bug report.,praise,appreciate how fast you responded to the bug report,"['appreciate', 'fast', 'responded', 'bug', 'report']",2
+Please allow connecting multiple email accounts.,feature_request,please allow connecting multiple email accounts,"['allow', 'connecting', 'multiple', 'email', 'accounts']",1
+The chat support is not helpful at all.,complaint,the chat support is not helpful at all,"['chat', 'support', 'helpful']",0
+Can I get a certificate for my completed course?,question,can i get a certificate for my completed course,"['certificate', 'completed', 'course']",3
+The system doesn’t recognize my credentials.,technical_issue,the system doesnt recognize my credentials,"['system', 'nt', 'recognize', 'credentials']",4
+Really liked the live Q&A session you hosted!,praise,really liked the live qa session you hosted,"['liked', 'live', 'qa', 'session', 'hosted']",2
+Feature idea: auto-categorize tasks by priority.,feature_request,feature idea autocategorize tasks by priority,"['feature', 'idea', 'autocategorize', 'tasks', 'priority']",1
+My refund request was ignored.,complaint,my refund request was ignored,"['refund', 'request', 'ignored']",0
+Where can I report bugs or suggestions?,question,where can i report bugs or suggestions,"['report', 'bugs', 'suggestions']",3
+Why does it say ‘invalid token’ during login?,technical_issue,why does it say invalid token during login,"['invalid', 'token', 'login']",4
+Massive improvement over last year’s version!,praise,massive improvement over last years version,"['massive', 'improvement', 'years', 'version']",2
+Please allow toggling between monthly/yearly billing.,feature_request,please allow toggling between monthlyyearly billing,"['allow', 'toggling', 'monthlyyearly', 'billing']",1
+I keep getting irrelevant notifications.,complaint,i keep getting irrelevant notifications,"['getting', 'irrelevant', 'notifications']",0
+Can you explain how your pricing tiers work?,question,can you explain how your pricing tiers work,"['explain', 'pricing', 'tiers', 'work']",3
+The browser version of the app is broken.,technical_issue,the browser version of the app is broken,"['browser', 'version', 'app', 'broken']",4
+Super impressed with the new mobile UI.,praise,super impressed with the new mobile ui,"['super', 'impressed', 'new', 'mobile', 'ui']",2
+I want to be able to tag feedback items.,feature_request,i want to be able to tag feedback items,"['want', 'able', 'tag', 'feedback', 'items']",1
+Very unprofessional support team response.,complaint,very unprofessional support team response,"['unprofessional', 'support', 'team', 'response']",0
+Is there any training provided for new users?,question,is there any training provided for new users,"['training', 'provided', 'new', 'users']",3
+Settings reset every time I close the browser.,technical_issue,settings reset every time i close the browser,"['settings', 'reset', 'time', 'close', 'browser']",4
+Great job on keeping performance smooth!,praise,great job on keeping performance smooth,"['great', 'job', 'keeping', 'performance', 'smooth']",2
+Please enable collaboration with external users.,feature_request,please enable collaboration with external users,"['enable', 'collaboration', 'external', 'users']",1
+Still haven’t heard back from technical support.,complaint,still havent heard back from technical support,"['nt', 'heard', 'technical', 'support']",0
+How do I integrate this with Slack?,question,how do i integrate this with slack,"['integrate', 'slack']",3
+The notifications are not syncing across devices.,technical_issue,the notifications are not syncing across devices,"['notifications', 'syncing', 'devices']",4
+Nice touch with the recent design refresh!,praise,nice touch with the recent design refresh,"['nice', 'touch', 'recent', 'design', 'refresh']",2
+Allow users to prioritize their feedback in-app.,feature_request,allow users to prioritize their feedback inapp,"['allow', 'users', 'prioritize', 'feedback', 'inapp']",1
+Your app doesn't work on Android 13.,technical_issue,your app doesnt work on android,"['app', 'nt', 'work', 'android']",4
+Super responsive to customer feedback!,praise,super responsive to customer feedback,"['super', 'responsive', 'customer', 'feedback']",2
+Can we get a Kanban-style board for tasks?,feature_request,can we get a kanbanstyle board for tasks,"['kanbanstyle', 'board', 'tasks']",1
+No confirmation email for password reset.,complaint,no confirmation email for password reset,"['confirmation', 'email', 'password', 'reset']",0
+Can I access my data after canceling?,question,can i access my data after canceling,"['access', 'data', 'canceling']",3
+My attachments don’t upload correctly.,technical_issue,my attachments dont upload correctly,"['attachments', 'nt', 'upload', 'correctly']",4
+Brilliant improvements in usability lately!,praise,brilliant improvements in usability lately,"['brilliant', 'improvements', 'usability', 'lately']",2
+I’d like to reorder dashboard widgets.,feature_request,id like to reorder dashboard widgets,"['d', 'like', 'reorder', 'dashboard', 'widgets']",1
+Why are your response times so inconsistent?,complaint,why are your response times so inconsistent,"['response', 'times', 'inconsistent']",0
+Where is your team located?,question,where is your team located,"['team', 'located']",3
+Your login process needs more flexibility.,technical_issue,your login process needs more flexibility,"['login', 'process', 'needs', 'flexibility']",4
+Your product really helped my small business!,praise,your product really helped my small business,"['product', 'helped', 'small', 'business']",2
+Please provide public API documentation.,feature_request,please provide public api documentation,"['provide', 'public', 'api', 'documentation']",1
+My data was wiped after reinstalling the app.,complaint,my data was wiped after reinstalling the app,"['data', 'wiped', 'reinstalling', 'app']",0
+Do you offer a sandbox environment?,question,do you offer a sandbox environment,"['offer', 'sandbox', 'environment']",3
+I can’t upload CSV files anymore.,technical_issue,i cant upload csv files anymore,"['nt', 'upload', 'csv', 'files', 'anymore']",4
+I love how the app saves my place automatically!,praise,i love how the app saves my place automatically,"['love', 'app', 'saves', 'place', 'automatically']",2
+Can we get email templates for replies?,feature_request,can we get email templates for replies,"['email', 'templates', 'replies']",1
+Support redirected me multiple times with no help.,complaint,support redirected me multiple times with no help,"['support', 'redirected', 'multiple', 'times', 'help']",0
+Where can I find the FAQ section?,question,where can i find the faq section,"['find', 'faq', 'section']",3
+My notifications are delayed by hours.,technical_issue,my notifications are delayed by hours,"['notifications', 'delayed', 'hours']",4
+Fantastic design and UX. Congrats!,praise,fantastic design and ux congrats,"['fantastic', 'design', 'ux', 'congrats']",2
+Allow auto-categorizing based on keywords.,feature_request,allow autocategorizing based on keywords,"['allow', 'autocategorizing', 'based', 'keywords']",1
+My free trial ended without warning.,complaint,my free trial ended without warning,"['free', 'trial', 'ended', 'warning']",0
+Can I recover deleted feedback items?,question,can i recover deleted feedback items,"['recover', 'deleted', 'feedback', 'items']",3
+Auto-save doesn’t seem to work consistently.,technical_issue,autosave doesnt seem to work consistently,"['autosave', 'nt', 'work', 'consistently']",4
+App navigation is much simpler now. Love it!,praise,app navigation is much simpler now love it,"['app', 'navigation', 'simpler', 'love']",2
+Let us customize our login screen branding.,feature_request,let us customize our login screen branding,"['let', 'customize', 'login', 'screen', 'branding']",1
+Your escalation process takes too long.,complaint,your escalation process takes too long,"['escalation', 'process', 'takes', 'long']",0
+How can I contact your team directly?,question,how can i contact your team directly,"['contact', 'team', 'directly']",3

@@ -1,0 +1,5 @@
+text,vader_score,vader_label,hf_label,hf_score
+This app is amazing!,0.6239,positive,POSITIVE,0.9998745918273926
+It crashes too often and is unusable.,0.0,neutral,NEGATIVE,0.9996746778488159
+Can you add dark mode?,0.0,neutral,NEGATIVE,0.9954637885093689
+Thanks for your support.,0.6808,positive,POSITIVE,0.999798595905304

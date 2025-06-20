@@ -1,0 +1,149 @@
+text,label
+"The app crashes every time I upload an image.",technical_issue
+"I really love the new dashboard layout!",praise
+"Please add dark mode to the app.",feature_request
+"I'm very disappointed with your customer service.",complaint
+"How do I change my subscription plan?",question
+"The website is down again. What's happening?",technical_issue
+"Great work on the latest update. Everything feels smooth.",praise
+"Can we get more payment options like PayPal?",feature_request
+"Your response time is terrible.",complaint
+"I forgot my password. Can you help me reset it?",question
+"The search feature is broken. It returns no results.",technical_issue
+"Fantastic job on the recent bug fixes.",praise
+"I'd love to have a desktop version of this app.",feature_request
+"Why haven't I received a confirmation email yet?",complaint
+"How do I unsubscribe from your newsletter?",question
+"The mobile app won't open after the update.",technical_issue
+"Thanks for the quick response. Much appreciated!",praise
+"Please support integration with Google Drive.",feature_request
+"I'm still waiting for someone to reply to my ticket.",complaint
+"What is your refund policy?",question
+"My saved data is missing after logging back in.",technical_issue
+"Best app I’ve used this year. Keep it up!",praise
+"Consider adding biometric login for extra security.",feature_request
+"Your chatbot keeps giving irrelevant answers.",complaint
+"Where can I download the user manual?",question
+"I get a 404 error on the help page.",technical_issue
+"The interface is so user-friendly. Well done!",praise
+"It would be great to get daily email reports.",feature_request
+"Unacceptable delays in your support team response.",complaint
+"Do you offer a student discount?",question
+"The export to PDF option isn’t working properly.",technical_issue
+"This is the most intuitive design I’ve seen.",praise
+"Can you provide a tutorial for beginners?",feature_request
+"Nobody answers on the live chat support.",complaint
+"How can I recover deleted items?",question
+"Sometimes the app freezes on the loading screen.",technical_issue
+"Love the new analytics dashboard!",praise
+"Please include multi-language support.",feature_request
+"The refund process is too slow.",complaint
+"What are the benefits of your premium plan?",question
+"My settings don't save after I log out.",technical_issue
+"Kudos to your team on the latest release!",praise
+"Add an option to customize notification sounds.",feature_request
+"Not happy with how my issue was handled.",complaint
+"Can I change my registered email address?",question
+"Every time I try to save a report, the app shuts down.",technical_issue
+"I really appreciate the new feature rollout.",praise
+"It would be helpful to schedule reports automatically.",feature_request
+"My account was locked for no reason.",complaint
+"Is there a way to change my language settings?",question
+"The billing page loads forever and never responds.",technical_issue
+"Kudos to the team for fixing bugs so fast!",praise
+"Would be great to import contacts from my phone.",feature_request
+"I was charged twice for the same subscription.",complaint
+"Where do I find my invoice history?",question
+"The app randomly logs me out.",technical_issue
+"I'm impressed by how clean the UI is now.",praise
+"Can you implement two-factor authentication?",feature_request
+"I didn’t get any confirmation after payment.",complaint
+"What is the difference between Basic and Premium?",question
+"The reports are missing key metrics after export.",technical_issue
+"The onboarding process was very smooth!",praise
+"Would love a feature to sync with Apple Calendar.",feature_request
+"Still waiting for someone to resolve my issue.",complaint
+"How do I delete my account permanently?",question
+"Why does the screen freeze on login?",technical_issue
+"Thanks for listening to user suggestions!",praise
+"Please add keyboard shortcuts for navigation.",feature_request
+"My coupon code didn’t work during checkout.",complaint
+"Where can I edit my profile details?",question
+"Nothing happens when I click the 'Submit' button.",technical_issue
+"This update is exactly what we needed. Well done!",praise
+"Would be awesome to have dark mode for emails.",feature_request
+"My ticket has been open for two weeks with no reply.",complaint
+"Is there a way to preview before sending?",question
+"The app shows incorrect timezone for meetings.",technical_issue
+"I love how intuitive everything feels now.",praise
+"Add export option to Excel, not just PDF.",feature_request
+"Customer service agent was rude and unhelpful.",complaint
+"How many users can I add to my team?",question
+"The forgot password link doesn’t work.",technical_issue
+"Big thanks for rolling out requested features!",praise
+"It would help if reports had a drill-down option.",feature_request
+"I never received the setup guide you promised.",complaint
+"How can I see what’s included in each plan?",question
+"Login fails with a ‘server error’ message.",technical_issue
+"The latest version is so much faster!",praise
+"Can you allow saving drafts before sending?",feature_request
+"I’m frustrated with the constant downtime.",complaint
+"Is phone support available for enterprise users?",question
+"The video tutorial won’t play on mobile.",technical_issue
+"Appreciate how fast you responded to the bug report.",praise
+"Please allow connecting multiple email accounts.",feature_request
+"The chat support is not helpful at all.",complaint
+"Can I get a certificate for my completed course?",question
+"The system doesn’t recognize my credentials.",technical_issue
+"Really liked the live Q&A session you hosted!",praise
+"Feature idea: auto-categorize tasks by priority.",feature_request
+"My refund request was ignored.",complaint
+"Where can I report bugs or suggestions?",question
+"Why does it say ‘invalid token’ during login?",technical_issue
+"Massive improvement over last year’s version!",praise
+"Please allow toggling between monthly/yearly billing.",feature_request
+"I keep getting irrelevant notifications.",complaint
+"Can you explain how your pricing tiers work?",question
+"The browser version of the app is broken.",technical_issue
+"Super impressed with the new mobile UI.",praise
+"I want to be able to tag feedback items.",feature_request
+"Very unprofessional support team response.",complaint
+"Is there any training provided for new users?",question
+"Settings reset every time I close the browser.",technical_issue
+"Great job on keeping performance smooth!",praise
+"Please enable collaboration with external users.",feature_request
+"Still haven’t heard back from technical support.",complaint
+"How do I integrate this with Slack?",question
+"The notifications are not syncing across devices.",technical_issue
+"Nice touch with the recent design refresh!",praise
+"Allow users to prioritize their feedback in-app.",feature_request
+"Your app doesn't work on Android 13.",technical_issue
+"Super responsive to customer feedback!",praise
+"Can we get a Kanban-style board for tasks?",feature_request
+"No confirmation email for password reset.",complaint
+"Can I access my data after canceling?",question
+"My attachments don’t upload correctly.",technical_issue
+"Brilliant improvements in usability lately!",praise
+"I’d like to reorder dashboard widgets.",feature_request
+"Why are your response times so inconsistent?",complaint
+"Where is your team located?",question
+"Your login process needs more flexibility.",technical_issue
+"Your product really helped my small business!",praise
+"Please provide public API documentation.",feature_request
+"My data was wiped after reinstalling the app.",complaint
+"Do you offer a sandbox environment?",question
+"I can’t upload CSV files anymore.",technical_issue
+"I love how the app saves my place automatically!",praise
+"Can we get email templates for replies?",feature_request
+"Support redirected me multiple times with no help.",complaint
+"Where can I find the FAQ section?",question
+"My notifications are delayed by hours.",technical_issue
+"Fantastic design and UX. Congrats!",praise
+"Allow auto-categorizing based on keywords.",feature_request
+"My free trial ended without warning.",complaint
+"Can I recover deleted feedback items?",question
+"Auto-save doesn’t seem to work consistently.",technical_issue
+"App navigation is much simpler now. Love it!",praise
+"Let us customize our login screen branding.",feature_request
+"Your escalation process takes too long.",complaint
+"How can I contact your team directly?",question
