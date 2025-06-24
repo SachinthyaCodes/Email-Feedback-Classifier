@@ -46,56 +46,81 @@ def get_sentiment(text):
         st.error(f"❌ Error: {str(e)}")
         return None
 
-# Analyze button
-if st.button("Analyze Sentiment") and feedback_text:
-    with st.spinner("Analyzing sentiment..."):
-        result = get_sentiment(feedback_text)
-        
-        if result:
-            st.success("✅ Sentiment analysis complete!")
+# Analyze button with a unique key
+analyze_button = st.button("Analyze Sentiment", key="analyze_btn")
+
+# Check if the button was clicked
+if analyze_button:
+    if not feedback_text or feedback_text.strip() == "":
+        st.warning("⚠️ Please enter some text to analyze")
+    else:
+        with st.spinner("Analyzing sentiment..."):
+            result = get_sentiment(feedback_text)
             
-            # Create two columns for the results
-            col1, col2 = st.columns(2)
-            
-            # VADER results
-            with col1:
-                st.subheader("VADER Analysis")
-                vader_score = result["vader_score"]
-                vader_sentiment = result["vader_sentiment"]
+            if result:
+                st.success("✅ Sentiment analysis complete!")
                 
-                score_color = "green" if vader_score > 0 else "red" if vader_score < 0 else "gray"
-                st.markdown(f"**Sentiment:** <span style='color:{score_color};font-weight:bold'>{vader_sentiment}</span>", unsafe_allow_html=True)
-                st.markdown(f"**Score:** <span style='color:{score_color};font-weight:bold'>{vader_score:.4f}</span>", unsafe_allow_html=True)
+                # Create two columns for the results
+                col1, col2 = st.columns(2)
+                  # VADER results
+                with col1:
+                    st.subheader("VADER Analysis")
+                    vader_scores = result["vader_sentiment"]
+                    compound_score = vader_scores["compound"]
+                    
+                    # Determine sentiment label
+                    if compound_score >= 0.05:
+                        vader_sentiment = "POSITIVE"
+                        score_color = "green"
+                    elif compound_score <= -0.05:
+                        vader_sentiment = "NEGATIVE"
+                        score_color = "red"
+                    else:
+                        vader_sentiment = "NEUTRAL"
+                        score_color = "gray"
+                    
+                    st.markdown(f"**Sentiment:** <span style='color:{score_color};font-weight:bold'>{vader_sentiment}</span>", unsafe_allow_html=True)
+                    st.markdown(f"**Compound Score:** <span style='color:{score_color};font-weight:bold'>{compound_score:.4f}</span>", unsafe_allow_html=True)
+                    
+                    # Show detailed scores
+                    st.caption(f"Positive: {vader_scores['pos']:.2f} | Neutral: {vader_scores['neu']:.2f} | Negative: {vader_scores['neg']:.2f}")
+                    
+                    # Visualization
+                    vader_progress_value = (compound_score + 1) / 2  # Convert from [-1,1] to [0,1]
+                    st.progress(vader_progress_value)
                 
-                # Visualization
-                vader_progress_value = (vader_score + 1) / 2  # Convert from [-1,1] to [0,1]
-                st.progress(vader_progress_value)
-            
-            # Hugging Face results
-            with col2:
-                st.subheader("DistilBERT Analysis")
-                hf_score = result["huggingface_score"]
-                hf_sentiment = result["huggingface_sentiment"]
+                # Hugging Face results
+                with col2:
+                    st.subheader("DistilBERT Analysis")
+                    hf_result = result["hf_sentiment"]
+                    hf_sentiment = hf_result["label"]
+                    hf_score = hf_result["score"]
+                    
+                    score_color = "green" if hf_sentiment == "POSITIVE" else "red"
+                    st.markdown(f"**Sentiment:** <span style='color:{score_color};font-weight:bold'>{hf_sentiment}</span>", unsafe_allow_html=True)
+                    st.markdown(f"**Confidence:** <span style='color:{score_color};font-weight:bold'>{hf_score:.4f}</span>", unsafe_allow_html=True)
+                    
+                    # Visualization
+                    st.progress(hf_score)
+                  # Display results in a table
+                st.subheader("Comparison")
                 
-                score_color = "green" if hf_sentiment == "POSITIVE" else "red"
-                st.markdown(f"**Sentiment:** <span style='color:{score_color};font-weight:bold'>{hf_sentiment}</span>", unsafe_allow_html=True)
-                st.markdown(f"**Confidence:** <span style='color:{score_color};font-weight:bold'>{hf_score:.4f}</span>", unsafe_allow_html=True)
-                
-                # Visualization
-                st.progress(hf_score)
-            
-            # Display results in a table
-            st.subheader("Comparison")
-            data = {
-                "Model": ["VADER", "DistilBERT"],
-                "Sentiment": [result["vader_sentiment"], result["huggingface_sentiment"]],
-                "Score": [result["vader_score"], result["huggingface_score"]]
-            }
-            results_df = pd.DataFrame(data)
-            st.table(results_df)
-            
-elif st.button("Analyze Sentiment") and not feedback_text:
-    st.warning("⚠️ Please enter some text to analyze")
+                # Get VADER sentiment label for comparison
+                vader_compound = result["vader_sentiment"]["compound"]
+                if vader_compound >= 0.05:
+                    vader_sentiment_label = "POSITIVE"
+                elif vader_compound <= -0.05:
+                    vader_sentiment_label = "NEGATIVE"
+                else:
+                    vader_sentiment_label = "NEUTRAL"
+                    
+                data = {
+                    "Model": ["VADER", "DistilBERT"],
+                    "Sentiment": [vader_sentiment_label, result["hf_sentiment"]["label"]],
+                    "Score": [vader_compound, result["hf_sentiment"]["score"]]
+                }
+                results_df = pd.DataFrame(data)
+                st.table(results_df)
 
 # Instructions
 st.markdown("---")

@@ -1,149 +1,149 @@
 text,label,predicted_label
-the app crashes every time i upload an image,4,technical_issue
-i really love the new dashboard layout,2,praise
-please add dark mode to the app,1,feature_request
-im very disappointed with your customer service,0,complaint
+the app crashes every time i upload an image,4,question
+i really love the new dashboard layout,2,question
+please add dark mode to the app,1,question
+im very disappointed with your customer service,0,question
 how do i change my subscription plan,3,question
-the website is down again whats happening,4,question
-great work on the latest update everything feels smooth,2,praise
-can we get more payment options like paypal,1,question
-your response time is terrible,0,complaint
-i forgot my password can you help me reset it,3,question
-the search feature is broken it returns no results,4,technical_issue
-fantastic job on the recent bug fixes,2,praise
-id love to have a desktop version of this app,1,feature_request
-why havent i received a confirmation email yet,0,question
+the website is down again whats happening,4,praise
+great work on the latest update everything feels smooth,2,technical_issue
+can we get more payment options like paypal,1,technical_issue
+your response time is terrible,0,question
+i forgot my password can you help me reset it,3,praise
+the search feature is broken it returns no results,4,question
+fantastic job on the recent bug fixes,2,question
+id love to have a desktop version of this app,1,question
+why havent i received a confirmation email yet,0,praise
 how do i unsubscribe from your newsletter,3,question
 the mobile app wont open after the update,4,technical_issue
-thanks for the quick response much appreciated,2,praise
-please support integration with google drive,1,feature_request
-im still waiting for someone to reply to my ticket,0,complaint
+thanks for the quick response much appreciated,2,question
+please support integration with google drive,1,question
+im still waiting for someone to reply to my ticket,0,praise
 what is your refund policy,3,question
-my saved data is missing after logging back in,4,technical_issue
+my saved data is missing after logging back in,4,question
 best app ive used this year keep it up,2,praise
-consider adding biometric login for extra security,1,feature_request
-your chatbot keeps giving irrelevant answers,0,praise
+consider adding biometric login for extra security,1,question
+your chatbot keeps giving irrelevant answers,0,question
 where can i download the user manual,3,question
-i get a error on the help page,4,technical_issue
-the interface is so userfriendly well done,2,praise
+i get a error on the help page,4,question
+the interface is so userfriendly well done,2,question
 it would be great to get daily email reports,1,praise
-unacceptable delays in your support team response,0,complaint
-do you offer a student discount,3,feature_request
-the export to pdf option isnt working properly,4,technical_issue
-this is the most intuitive design ive seen,2,praise
-can you provide a tutorial for beginners,1,feature_request
-nobody answers on the live chat support,0,technical_issue
+unacceptable delays in your support team response,0,question
+do you offer a student discount,3,question
+the export to pdf option isnt working properly,4,question
+this is the most intuitive design ive seen,2,question
+can you provide a tutorial for beginners,1,question
+nobody answers on the live chat support,0,question
 how can i recover deleted items,3,question
 sometimes the app freezes on the loading screen,4,technical_issue
-love the new analytics dashboard,2,praise
-please include multilanguage support,1,feature_request
-the refund process is too slow,0,complaint
+love the new analytics dashboard,2,question
+please include multilanguage support,1,question
+the refund process is too slow,0,question
 what are the benefits of your premium plan,3,question
-my settings dont save after i log out,4,technical_issue
-kudos to your team on the latest release,2,praise
-add an option to customize notification sounds,1,feature_request
-not happy with how my issue was handled,0,complaint
+my settings dont save after i log out,4,question
+kudos to your team on the latest release,2,question
+add an option to customize notification sounds,1,technical_issue
+not happy with how my issue was handled,0,question
 can i change my registered email address,3,question
-every time i try to save a report the app shuts down,4,technical_issue
-i really appreciate the new feature rollout,2,praise
-it would be helpful to schedule reports automatically,1,feature_request
-my account was locked for no reason,0,complaint
+every time i try to save a report the app shuts down,4,question
+i really appreciate the new feature rollout,2,question
+it would be helpful to schedule reports automatically,1,question
+my account was locked for no reason,0,question
 is there a way to change my language settings,3,question
-the billing page loads forever and never responds,4,technical_issue
-kudos to the team for fixing bugs so fast,2,praise
-would be great to import contacts from my phone,1,feature_request
-i was charged twice for the same subscription,0,technical_issue
+the billing page loads forever and never responds,4,question
+kudos to the team for fixing bugs so fast,2,question
+would be great to import contacts from my phone,1,question
+i was charged twice for the same subscription,0,question
 where do i find my invoice history,3,question
-the app randomly logs me out,4,technical_issue
-im impressed by how clean the ui is now,2,praise
-can you implement twofactor authentication,1,feature_request
-i didnt get any confirmation after payment,0,complaint
+the app randomly logs me out,4,question
+im impressed by how clean the ui is now,2,question
+can you implement twofactor authentication,1,question
+i didnt get any confirmation after payment,0,technical_issue
 what is the difference between basic and premium,3,question
-the reports are missing key metrics after export,4,technical_issue
-the onboarding process was very smooth,2,praise
-would love a feature to sync with apple calendar,1,feature_request
-still waiting for someone to resolve my issue,0,complaint
+the reports are missing key metrics after export,4,question
+the onboarding process was very smooth,2,question
+would love a feature to sync with apple calendar,1,technical_issue
+still waiting for someone to resolve my issue,0,question
 how do i delete my account permanently,3,question
 why does the screen freeze on login,4,question
-thanks for listening to user suggestions,2,praise
-please add keyboard shortcuts for navigation,1,feature_request
-my coupon code didnt work during checkout,0,complaint
+thanks for listening to user suggestions,2,question
+please add keyboard shortcuts for navigation,1,question
+my coupon code didnt work during checkout,0,praise
 where can i edit my profile details,3,question
-nothing happens when i click the submit button,4,technical_issue
+nothing happens when i click the submit button,4,question
 this update is exactly what we needed well done,2,praise
-would be awesome to have dark mode for emails,1,feature_request
-my ticket has been open for two weeks with no reply,0,technical_issue
+would be awesome to have dark mode for emails,1,technical_issue
+my ticket has been open for two weeks with no reply,0,question
 is there a way to preview before sending,3,question
-the app shows incorrect timezone for meetings,4,technical_issue
-i love how intuitive everything feels now,2,praise
-add export option to excel not just pdf,1,feature_request
-customer service agent was rude and unhelpful,0,complaint
+the app shows incorrect timezone for meetings,4,question
+i love how intuitive everything feels now,2,question
+add export option to excel not just pdf,1,question
+customer service agent was rude and unhelpful,0,question
 how many users can i add to my team,3,question
-the forgot password link doesnt work,4,technical_issue
-big thanks for rolling out requested features,2,praise
-it would help if reports had a drilldown option,1,feature_request
+the forgot password link doesnt work,4,question
+big thanks for rolling out requested features,2,question
+it would help if reports had a drilldown option,1,question
 i never received the setup guide you promised,0,question
-how can i see whats included in each plan,3,question
-login fails with a server error message,4,technical_issue
+how can i see whats included in each plan,3,praise
+login fails with a server error message,4,question
 the latest version is so much faster,2,praise
 can you allow saving drafts before sending,1,question
-im frustrated with the constant downtime,0,complaint
-is phone support available for enterprise users,3,feature_request
-the video tutorial wont play on mobile,4,technical_issue
-appreciate how fast you responded to the bug report,2,praise
-please allow connecting multiple email accounts,1,feature_request
-the chat support is not helpful at all,0,technical_issue
+im frustrated with the constant downtime,0,question
+is phone support available for enterprise users,3,technical_issue
+the video tutorial wont play on mobile,4,praise
+appreciate how fast you responded to the bug report,2,question
+please allow connecting multiple email accounts,1,question
+the chat support is not helpful at all,0,question
 can i get a certificate for my completed course,3,question
-the system doesnt recognize my credentials,4,technical_issue
+the system doesnt recognize my credentials,4,question
 really liked the live qa session you hosted,2,praise
 feature idea autocategorize tasks by priority,1,feature_request
-my refund request was ignored,0,complaint
+my refund request was ignored,0,question
 where can i report bugs or suggestions,3,question
 why does it say invalid token during login,4,question
-massive improvement over last years version,2,praise
-please allow toggling between monthlyyearly billing,1,feature_request
-i keep getting irrelevant notifications,0,complaint
+massive improvement over last years version,2,feature_request
+please allow toggling between monthlyyearly billing,1,question
+i keep getting irrelevant notifications,0,question
 can you explain how your pricing tiers work,3,question
-the browser version of the app is broken,4,technical_issue
-super impressed with the new mobile ui,2,praise
-i want to be able to tag feedback items,1,feature_request
-very unprofessional support team response,0,complaint
+the browser version of the app is broken,4,question
+super impressed with the new mobile ui,2,question
+i want to be able to tag feedback items,1,question
+very unprofessional support team response,0,question
 is there any training provided for new users,3,question
-settings reset every time i close the browser,4,technical_issue
+settings reset every time i close the browser,4,question
 great job on keeping performance smooth,2,praise
-please enable collaboration with external users,1,feature_request
-still havent heard back from technical support,0,complaint
+please enable collaboration with external users,1,question
+still havent heard back from technical support,0,praise
 how do i integrate this with slack,3,question
-the notifications are not syncing across devices,4,technical_issue
-nice touch with the recent design refresh,2,praise
-allow users to prioritize their feedback inapp,1,feature_request
-your app doesnt work on android,4,technical_issue
-super responsive to customer feedback,2,praise
-can we get a kanbanstyle board for tasks,1,question
-no confirmation email for password reset,0,technical_issue
+the notifications are not syncing across devices,4,question
+nice touch with the recent design refresh,2,technical_issue
+allow users to prioritize their feedback inapp,1,question
+your app doesnt work on android,4,praise
+super responsive to customer feedback,2,technical_issue
+can we get a kanbanstyle board for tasks,1,praise
+no confirmation email for password reset,0,question
 can i access my data after canceling,3,question
-my attachments dont upload correctly,4,technical_issue
+my attachments dont upload correctly,4,question
 brilliant improvements in usability lately,2,question
-id like to reorder dashboard widgets,1,feature_request
+id like to reorder dashboard widgets,1,question
 why are your response times so inconsistent,0,question
-where is your team located,3,question
-your login process needs more flexibility,4,feature_request
-your product really helped my small business,2,praise
-please provide public api documentation,1,feature_request
-my data was wiped after reinstalling the app,0,technical_issue
-do you offer a sandbox environment,3,feature_request
+where is your team located,3,praise
+your login process needs more flexibility,4,question
+your product really helped my small business,2,question
+please provide public api documentation,1,question
+my data was wiped after reinstalling the app,0,question
+do you offer a sandbox environment,3,question
 i cant upload csv files anymore,4,question
 i love how the app saves my place automatically,2,praise
-can we get email templates for replies,1,question
+can we get email templates for replies,1,praise
 support redirected me multiple times with no help,0,question
 where can i find the faq section,3,question
-my notifications are delayed by hours,4,technical_issue
+my notifications are delayed by hours,4,question
 fantastic design and ux congrats,2,praise
 allow autocategorizing based on keywords,1,feature_request
-my free trial ended without warning,0,complaint
+my free trial ended without warning,0,question
 can i recover deleted feedback items,3,question
-autosave doesnt seem to work consistently,4,technical_issue
-app navigation is much simpler now love it,2,praise
-let us customize our login screen branding,1,feature_request
-your escalation process takes too long,0,complaint
-how can i contact your team directly,3,question
+autosave doesnt seem to work consistently,4,feature_request
+app navigation is much simpler now love it,2,feature_request
+let us customize our login screen branding,1,question
+your escalation process takes too long,0,question
+how can i contact your team directly,3,praise
