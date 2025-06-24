@@ -8,7 +8,7 @@ This beginner-friendly project classifies email feedback into types like **compl
 
 ## 🎥 Demo
 
-🎬 [Watch Demo Video](https://youtu.be/sample-demo-link)
+🎬 [Watch Demo Video](https://youtu.be/yVqQ8aDJ7to)
 
 ---
 
@@ -161,6 +161,8 @@ python test_api.py
 This repository does not contain the fine-tuned model to avoid large file uploads.
 
 Download the model and place it in the project directory.
+
+- [Model File](https://huggingface.co/Sachinthya/Email-Feedback-Classifier)
 
 ## 📈 Sample Output
 
