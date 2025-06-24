@@ -190,5 +190,5 @@ Download the model and place it in the project directory.
 
 Sachinthya Lakshitha  
 🎓 Final year IT Undergraduate  
-[LinkedIn Profile](https://linkedin.com/in/yourusername)  
-📧 sachinthya@email.com
+[LinkedIn Profile](https://www.linkedin.com/in/sachinthya-lakshitha/)  
+📧 sachinthyaofficial@email.com
