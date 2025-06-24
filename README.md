@@ -1,4 +1,4 @@
-convert below text into markdown (README file for github)---># 📬 Email Feedback Classifier & Sentiment Analyzer (NLP + Transformers)
+# 📬 Email Feedback Classifier & Sentiment Analyzer (NLP + Transformers)
 
 This beginner-friendly project classifies email feedback into types like **complaints**, **praise**, or **feature requests**, and analyzes **sentiment** using both **rule-based** and **transformer-based** techniques.
 
@@ -14,26 +14,24 @@ This beginner-friendly project classifies email feedback into types like **compl
 
 ## 📁 Project Structure
 
+```
 📦email-feedback-classifier
 ├── data/
-│ ├── feedback.csv
-│ └── feedback_cleaned.csv
+│   ├── feedback.csv
+│   └── feedback_cleaned.csv
 ├── distilbert-email-feedback-model/ ← (Not included in repo)
 ├── notebooks/
+├── app/
+│   ├── api.py - FastAPI backend for sentiment analysis
+│   └── streamlit_app.py - Streamlit frontend for user interaction 
 ├── results/
 ├── logs/
 ├── api_test.py
-├── app.py ← (Optional FastAPI app)
-├── sentiment_analysis.py
-├── train_logistic_regression.py
-├── train_transformer.py
-├── data_preprocessing.py
-├── predicted_feedback.csv
+├── test_api.py
+├── run_app.bat
+├── requirements.txt
 └── README.md
-
-yaml
-Copy
-Edit
+```
 
 ---
 
@@ -41,8 +39,6 @@ Edit
 
 > 🚧 I am a **beginner in NLP and machine learning**, and this project was built for learning purposes.  
 > The model **might not be highly accurate** or production-ready. Any feedback or improvements are welcome!
-
----
 
 ## 🛠️ Tech Stack
 
@@ -53,7 +49,7 @@ Edit
 | ML Model          | `LogisticRegression`, `TfidfVectorizer` |
 | Transformers      | `DistilBERT`, `transformers`, `Trainer` |
 | Sentiment Analysis| `VADER`, `transformers.pipeline`    |
-| Deployment        | `FastAPI` (optional)                |
+| Deployment        | `FastAPI`, `Streamlit`              |
 | Visualization     | `matplotlib`, `seaborn`             |
 
 ---
@@ -68,116 +64,131 @@ Edit
 
 ---
 
-## 🔧 Installation
+## 🔧 Installation & Setup
 
 ### 1. Clone this repo
 
-```bash
-git clone https://github.com/yourusername/email-feedback-classifier.git
+```
+git clone https://github.com/SachinthyaCodes/Email-Feedback-Classifier.git
 cd email-feedback-classifier
-2. Install dependencies
-bash
-Copy
-Edit
+```
+
+### 2. Create and activate a virtual environment (optional but recommended)
+
+```
+# Windows
+python -m venv env
+env\Scripts\activate
+
+# Linux/Mac
+python -m venv env
+source env/bin/activate
+```
+
+### 3. Install dependencies
+
+```
 pip install -r requirements.txt
 python -m spacy download en_core_web_sm
-🚀 How to Use
-Step 1: Preprocess Raw Data
-bash
-Copy
-Edit
+```
+
+## 🚀 How to Use
+
+### Step 1: Preprocess Raw Data
+
+```
 python data_preprocessing.py
-Cleans text (lowercase, punctuation removal)
+```
+- Cleans text (lowercase, punctuation removal)
+- Tokenizes
+- Encodes labels
+- Saves feedback_cleaned.csv
 
-Tokenizes
+### Step 2: Train a Baseline Classifier (Logistic Regression)
 
-Encodes labels
-
-Saves feedback_cleaned.csv
-
-Step 2: Train a Baseline Classifier (Logistic Regression)
-bash
-Copy
-Edit
+```
 python train_logistic_regression.py
-Uses TF-IDF + Logistic Regression
+```
+- Uses TF-IDF + Logistic Regression
+- Displays accuracy and confusion matrix
 
-Displays accuracy and confusion matrix
+### Step 3: Fine-tune DistilBERT (Transformer)
 
-Step 3: Fine-tune DistilBERT (Transformer)
-bash
-Copy
-Edit
+```
 python train_transformer.py
-Loads distilbert-base-uncased
+```
+- Loads distilbert-base-uncased
+- Fine-tunes it using Hugging Face Trainer
+- Saves model to local folder
 
-Fine-tunes it using Hugging Face Trainer
+### Step 4: Add Sentiment Scores
 
-Saves model to local folder
+```
+python sentiment_analysis.py
+```
+- Adds vader_score, vader_label
+- Adds Hugging Face sentiment label + score
+- Saves results to predicted_feedback.csv
 
-⚠️ Model File Not Included
+### Step 5: Run the Sentiment Analysis Application
+
+Either use the batch file:
+```
+run_app.bat
+```
+
+Or start manually:
+```
+# Terminal 1 - Start FastAPI backend
+uvicorn app.api:app --reload
+
+# Terminal 2 - Start Streamlit frontend
+streamlit run app/streamlit_app.py
+```
+
+The API will be available at http://127.0.0.1:8000
+- API documentation: http://127.0.0.1:8000/docs
+- Streamlit app: http://localhost:8501
+
+### Step 6: Test the API
+
+```
+python test_api.py
+```
+
+## ⚠️ Model File Not Included
+
 This repository does not contain the fine-tuned model to avoid large file uploads.
 
-🔗 Download model from Google Drive:
-Download distilbert-email-feedback-model
+Download the model and place it in the project directory.
 
-Then place the model in the root directory as:
+## 📈 Sample Output
 
-Copy
-Edit
-distilbert-email-feedback-model/
-Step 4: Add Sentiment Scores
-bash
-Copy
-Edit
-python sentiment_analysis.py
-Adds vader_score, vader_label
+| text | predicted_label | vader_label | huggingface_sentiment |
+|------|----------------|------------|----------------------|
+| Love the design! | praise | positive | POSITIVE |
+| The app keeps crashing. | technical_issue | negative | NEGATIVE |
+| Can we get dark mode? | feature_request | neutral | NEUTRAL |
 
-Adds Hugging Face sentiment label + score
+## 💡 Key Learning Areas
 
-Saves results to predicted_feedback.csv
+- Text preprocessing with spaCy
+- Basic ML vs. Transformers for NLP
+- Fine-tuning a Hugging Face model
+- Sentiment scoring with rule-based & transformer models
+- Building and testing a simple API for predictions
 
-Step 5: Test the API (Optional)
-Start the FastAPI server (if using):
+## 🧠 Resources & Credits
 
-bash
-Copy
-Edit
-uvicorn app:app --reload
-Run the API test:
+- [Hugging Face Transformers](https://huggingface.co/docs/transformers/index)
+- [VADER Sentiment](https://github.com/cjhutto/vaderSentiment)
+- [Scikit-learn](https://scikit-learn.org/)
+- [FastAPI](https://fastapi.tiangolo.com/)
+- [Streamlit](https://streamlit.io/)
 
-bash
-Copy
-Edit
-python api_test.py
-📈 Sample Output
-text	predicted_label	vader_label	huggingface_sentiment
-Love the design!	praise	positive	POSITIVE
-The app keeps crashing.	technical_issue	negative	NEGATIVE
-Can we get dark mode?	feature_request	neutral	NEUTRAL
+## 🙋‍♂️ Author
 
-💡 Key Learning Areas
-Text preprocessing with spaCy
-
-Basic ML vs. Transformers for NLP
-
-Fine-tuning a Hugging Face model
-
-Sentiment scoring with rule-based & transformer models
-
-Building and testing a simple API for predictions
-
-🧠 Resources & Credits
-Hugging Face Transformers
-
-VADER Sentiment
-
-Scikit-learn
-
-FastAPI
-
-🙋‍♂️ Author
-Sachinthya Lakshitha
-🎓 Final year IT Undergraduate
-🔗 LinkedIn
-📧 sachinthya@email.com (replace with actual)
+Sachinthya Lakshitha  
+🎓 Final year IT Undergraduate  
+[LinkedIn Profile](https://linkedin.com/in/yourusername)  
+📧 sachinthya@email.com
