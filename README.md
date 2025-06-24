@@ -1,8 +1,8 @@
-# 📬 Email Feedback Classifier & Sentiment Analyzer (NLP + Transformers)
+#  Email Feedback Classifier & Sentiment Analyzer (NLP + Transformers)
 
 This beginner-friendly project classifies email feedback into types like **complaints**, **praise**, or **feature requests**, and analyzes **sentiment** using both **rule-based** and **transformer-based** techniques.
 
-💡 Built as a learning experiment using NLP, scikit-learn, Hugging Face Transformers, and VADER.
+ Built as a learning experiment using NLP, scikit-learn, Hugging Face Transformers, and VADER.
 
 ---
 
@@ -92,7 +92,7 @@ pip install -r requirements.txt
 python -m spacy download en_core_web_sm
 ```
 
-## 🚀 How to Use
+##  How to Use
 
 ### Step 1: Preprocess Raw Data
 
@@ -164,7 +164,7 @@ Download the model and place it in the project directory.
 
 - [Model File](https://huggingface.co/Sachinthya/Email-Feedback-Classifier)
 
-## 📈 Sample Output
+##  Sample Output
 
 | text | predicted_label | vader_label | huggingface_sentiment |
 |------|----------------|------------|----------------------|
@@ -172,7 +172,7 @@ Download the model and place it in the project directory.
 | The app keeps crashing. | technical_issue | negative | NEGATIVE |
 | Can we get dark mode? | feature_request | neutral | NEUTRAL |
 
-## 💡 Key Learning Areas
+##  Key Learning Areas
 
 - Text preprocessing with spaCy
 - Basic ML vs. Transformers for NLP
@@ -180,7 +180,7 @@ Download the model and place it in the project directory.
 - Sentiment scoring with rule-based & transformer models
 - Building and testing a simple API for predictions
 
-## 🧠 Resources & Credits
+##  Resources & Credits
 
 - [Hugging Face Transformers](https://huggingface.co/docs/transformers/index)
 - [VADER Sentiment](https://github.com/cjhutto/vaderSentiment)
@@ -188,9 +188,8 @@ Download the model and place it in the project directory.
 - [FastAPI](https://fastapi.tiangolo.com/)
 - [Streamlit](https://streamlit.io/)
 
-## 🙋‍♂️ Author
+##  Author
 
 Sachinthya Lakshitha  
-🎓 Final year IT Undergraduate  
 [LinkedIn Profile](https://www.linkedin.com/in/sachinthya-lakshitha/)  
 📧 sachinthyaofficial@email.com
